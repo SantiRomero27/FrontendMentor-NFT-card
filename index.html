@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <title>Frontend Mentor | NFT preview card component</title>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <!-- Main -->
+        <div id="root">
+            <!-- Card component -->
+            <div class="nft-card">
+                <!-- Image section -->
+                <section class="image-section">
+                    <img
+                        src="./images/image-equilibrium.jpg"
+                        class="nft-image"
+                    />
+                    <div class="image-overlay">
+                        <img
+                            src="./images/icon-view.svg"
+                            class="image-overlay-view"
+                        />
+                    </div>
+                </section>
+
+                <!-- NFT information section -->
+                <section class="information-section">
+                    <article class="information-section__description">
+                        <h3 class="information-section__description-title">
+                            Equilibrium #91218
+                        </h3>
+                        <p class="information-section__description-text">
+                            Our Equilibrium collection promotes balance and
+                            calm.
+                        </p>
+                    </article>
+                    <div class="information-section__buy">
+                        <div class="information-section__buy-price-container">
+                            <img
+                                src="./images/icon-ethereum.svg"
+                                class="information-section__buy-price-image"
+                            />
+                            <span class="information-section__buy-price-text"
+                                >912.18 ETH</span
+                            >
+                        </div>
+                        <div class="information-section__buy-time-container">
+                            <img
+                                src="./images/icon-clock.svg"
+                                class="information-section__buy-time-image"
+                            />
+                            <span class="information-section__buy-time-text"
+                                >3 days left</span
+                            >
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Creator information section -->
+                <section class="creator-information-section">
+                    <img
+                        src="./images/image-avatar.png"
+                        class="creator-information-section__image"
+                    />
+                    <span class="creator-information-section__text"
+                        >Creation of
+                        <a
+                            href="https://www.linkedin.com/in/santiago-romero-gherdina/"
+                            target="__blank"
+                            >Santiago Romero Gherdina</a
+                        ></span
+                    >
+                </section>
+            </div>
+        </div>
+    </body>
+</html>

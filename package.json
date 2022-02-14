@@ -1,0 +1,8 @@
+{
+    "name": "nft-card",
+    "version": "1.0.0",
+    "license": "MIT",
+    "scripts": {
+        "dev": "live-server --browser=CHROME"
+    }
+}
